@@ -5,7 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Android Apps - Ojo Emmanuel Boluwatife</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f6f7; color: #333; }
+
+
+    @font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/lexend_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+    body { font-family: "MyCustomFont", sans-serif; margin: 0; padding: 0; background: #f5f6f7; color: #333; }
     header { background: #1e293b; color: #fff; text-align: center; padding: 2rem 1rem; }
     header h1 { margin: 0; }
     .container { max-width: 1000px; margin: 2rem auto; padding: 1rem; }
@@ -26,7 +35,7 @@
     <h2>Click on an app to see its screenshots and design details</h2>
     <div class="grid">
       <div class="card" onclick="window.location.href='quizlect.html'">
-        <img src="EM_Tech.png" alt="Quiz App Icon">
+        <img src="images/EM_Tech.png" alt="Quiz App Icon">
         <div class="caption">Quiz App</div>
       </div>
     </div>
